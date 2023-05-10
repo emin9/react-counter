@@ -1,38 +1,142 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  margin: auto;
+  padding: auto;
+  box-sizing: border-box;
+  font-family: 'Aleo', serif;
+ 
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container{
+  max-width: 770px;
+  margin: auto;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header{
+  padding: 20px 0px ;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-bottom:1px solid  #0000000D;
+  
+}
+.logo{
+  max-width: 154px ;
+}
+.menu{
+  display: flex;
+  column-gap: 10px;
+  list-style: none;
+}
+.menutext{
+  font-family: Aleo,sans-serif;
+  font-weight: 700;
+  color: #393939;
+ 
+  
+}
+a{
+  font-family: o;
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  font-weight: 700px;
+
+
+}
+.main{}
+.number{
+  font-family: Aleo;
+  font-size: 288px;
+  font-weight: 700;
+  line-height: 346px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-top: 40px; ;
+}
+.btns{
+ padding-top: 20px;
+ margin: auto;
+ display: flex;
+ justify-content: space-between;
+
+ 
+}
+.btns__plus{
+  color: #ffff;
+  border: 1px solid  #0FC50B;
+  background-color: #0FC50B;
+  padding: 15px 20px;
+  max-width: 106px;
+  border-radius: 27px;
+
+  
+}
+.btns__refresh{
+  
+  max-width: 55px;
+  padding: 13px;
+  border: 1px solid  #E5E5E5;
+  background-color : #E5E5E5;
+  border-radius: 27px;
 }
 
-.App-link {
-  color: #61dafb;
+.btns__minus{
+  color: #ffff;
+  border: 1px solid #F64C4C;
+  ;
+  background-color: #F64C4C;
+  padding: 15px 22px;
+  max-width: 106px;
+  border-radius: 27px;
+
+
+}
+.footer{
+  padding: 200px 0px 30px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.footerlogo{
+  max-width: 93px;
+ padding-bottom: 9px;
+}
+.footermenu{
+  display: flex;
+  column-gap: 10px;
+  text-decoration: none;
+  list-style: none;
+  padding-right: 120px;
+  font-family: Aleo;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  align-items: flex-end;
+  color:  #00000080;
+  
+  ;
+
+}
+.footermenutext{
+  color: #00000080;
+  font-family: Aleo , sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.copyright{
+  font-family: Aleo,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:  #00000080;
+  ;
+  
+    
 }
+
+
